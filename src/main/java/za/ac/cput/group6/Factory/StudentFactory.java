@@ -6,6 +6,7 @@ import za.ac.cput.group6.Util.GenerateID;
 
 public class StudentFactory {
 
+
     public static Student createStudent(
                                        String firstName,
                                        String lastName,

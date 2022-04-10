@@ -1,9 +1,9 @@
 package za.ac.cput.group6.Entity;
 
 public class StudentGender {
-private String studentId,genderId;
+private String studentId,genderId,description;
 
-private StudentGender (Builder builder){
+public StudentGender(Builder builder){
 
     this.studentId=builder.studentId;
     this.genderId=builder.genderId;
