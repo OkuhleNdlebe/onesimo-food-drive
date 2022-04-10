@@ -1,6 +1,12 @@
 package za.ac.cput.group6.Factory;
 
 
+/**Student.java
+ *  Student Gender Factory
+ * Author: Nkuna Justin(219319820)
+ * Date: 10 April 2022
+ */
+
 
 import za.ac.cput.group6.Entity.StudentGender;
 import za.ac.cput.group6.Util.GenerateID;

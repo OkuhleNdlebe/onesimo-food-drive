@@ -1,5 +1,11 @@
 package za.ac.cput.group6.Entity;
 
+/**Student.java
+ * Entity for StudentGender
+ * Author: Nkuna Justin(219319820)
+ * Date: 10 April 2022
+ */
+
 public class StudentGender {
 private String studentId,genderId,description;
 

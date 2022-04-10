@@ -1,5 +1,9 @@
 package za.ac.cput.group6.Entity;
-
+/**Student.java
+ * Test for Student Entity
+ * Author: Nkuna Justin(219319820)
+ * Date: 10 April 2022
+ */
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
