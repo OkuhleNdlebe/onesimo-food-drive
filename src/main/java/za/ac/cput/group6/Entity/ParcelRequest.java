@@ -7,7 +7,7 @@ ADP assignment 1
  */
 package za.ac.cput.group6.Entity;
 
-import java.util.Date;
+
 
 public class ParcelRequest {
     private String parcelRequestId;

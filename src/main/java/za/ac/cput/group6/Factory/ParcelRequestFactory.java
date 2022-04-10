@@ -2,14 +2,15 @@ package za.ac.cput.group6.Factory;
 
 
 import za.ac.cput.group6.Entity.ParcelRequest;
+import za.ac.cput.group6.Util.GenerateID;
 
 import java.util.Date;
 
 public class ParcelRequestFactory {
 
-    public static ParcelRequest createParcelRequest(String parcelRequestId, String parcelName,String date){
+    public static ParcelRequest createParcelRequest( String parcelName,String date){
 
-        //*String lecturerId = GenericHelper.generateId();*//
+        String parcelRequestId = GenerateID.generateID();
 
         ParcelRequest parcelRequest = new ParcelRequest.Builder()
                 .setParcelRequestId(parcelRequestId)

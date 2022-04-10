@@ -11,7 +11,6 @@ package za.ac.cput.group6.Entity;
 
 
 public class FundingStatus {
-
     private String studentID;
     private Boolean status;
     private String fundingDate;
@@ -44,6 +43,10 @@ public class FundingStatus {
                 ", status=" + status +
                 ", fundingDate=" + fundingDate +
                 '}';
+    }
+
+    public void getFundingStatus() {
+
     }
 
     public static class Builder {

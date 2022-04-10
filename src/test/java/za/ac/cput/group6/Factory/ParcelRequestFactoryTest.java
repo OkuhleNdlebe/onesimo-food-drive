@@ -9,7 +9,14 @@ import za.ac.cput.group6.Entity.ParcelRequest;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ParcelRequestFactoryTest {
-    ParcelRequest parcelRequest = ParcelRequestFactory.createParcelRequest("0112","FoodParcel","12/03/2022");
+    @Test
+            public void test(){
+        ParcelRequest parcelRequest = ParcelRequestFactory.createParcelRequest("Food","12/22/23");
+        assertNotNull(parcelRequest);
+        System.out.println(parcelRequest);
+
+    }
+    ParcelRequest parcelRequest = ParcelRequestFactory.createParcelRequest("Food","12/22/23");
     ParcelRequest parcelRequest2= parcelRequest;
 
     @Test

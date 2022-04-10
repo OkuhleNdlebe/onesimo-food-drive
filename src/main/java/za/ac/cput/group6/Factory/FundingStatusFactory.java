@@ -3,13 +3,13 @@ package za.ac.cput.group6.Factory;
 
 import za.ac.cput.group6.Entity.FundingStatus;
 
-import java.util.Date;
+import za.ac.cput.group6.Util.GenerateID;
 
 public class FundingStatusFactory {
 
     public static FundingStatus createFundingStatus(String studentID, Boolean status, String date){
 
-        //*String lecturerId = GenericHelper.generateId();*//
+      String studentId= GenerateID.generateID();
 
         return new FundingStatus.Builder()
                 .setStudentID(studentID)
