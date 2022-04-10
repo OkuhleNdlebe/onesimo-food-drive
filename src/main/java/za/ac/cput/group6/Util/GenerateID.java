@@ -1,4 +1,12 @@
 package za.ac.cput.group6.Util;
+/*
+ *Name: Okuhle
+ * Surname: Ndlebe
+ * Group Role: Group lead
+ * Student number : 218338619
+ * Date : 10 April 2022
+ * Term one Assignment on Builder Pattern
+ */
 
 import java.util.UUID;
 

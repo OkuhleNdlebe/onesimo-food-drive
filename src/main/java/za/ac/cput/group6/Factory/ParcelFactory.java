@@ -7,7 +7,7 @@ public class ParcelFactory {
 
         String parcelId = GenerateID.generateID();
         return new ParcelPack.Builder()
-                .setParcelId(parcelId)
+                .setParcelPackId(parcelId)
                 .setParcelName(parcelName)
                 .setParcelDate(parcelDate)
                 .setParcelDecr(parcelDescr)

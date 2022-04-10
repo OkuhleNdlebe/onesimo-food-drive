@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import za.ac.cput.group6.Entity.FundingStatus;
 import za.ac.cput.group6.Factory.FundingStatusFactory;
+import za.ac.cput.group6.Repository.FundingStatus.impl.FundingStatusRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

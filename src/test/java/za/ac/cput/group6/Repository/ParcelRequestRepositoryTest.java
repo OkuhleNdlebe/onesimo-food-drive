@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import za.ac.cput.group6.Entity.ParcelRequest;
 import za.ac.cput.group6.Factory.ParcelRequestFactory;
+import za.ac.cput.group6.Repository.ParcelRequest.impl.ParcelRequestRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -3,6 +3,7 @@ package za.ac.cput.group6.Repository;
 import org.junit.jupiter.api.*;
 import za.ac.cput.group6.Entity.Distribution;
 import za.ac.cput.group6.Factory.DistributionFactory;
+import za.ac.cput.group6.Repository.Distribution.impl.DistributionRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

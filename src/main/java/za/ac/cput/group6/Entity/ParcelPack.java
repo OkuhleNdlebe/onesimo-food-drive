@@ -1,9 +1,17 @@
 package za.ac.cput.group6.Entity;
+/*
+ *Name: Okuhle
+ * Surname: Ndlebe
+ * Group Role: Group lead
+ * Student number : 218338619
+ * Date : 10 April 2022
+ * Term one Assignment on Builder Pattern
+ */
 import java.util.Objects;
 
 
 public class ParcelPack {
-    private String parcelId;
+    private String parcelPackId;
     private String parcelDate;
     private String parcelDescr;
     private  String parcelName;
@@ -12,13 +20,13 @@ public class ParcelPack {
 
     }
     private ParcelPack(Builder builder){
-        this.parcelId = builder.parcelId;
+        this.parcelPackId = builder.parcelPackId;
         this.parcelDate = builder.parcelDate;
         this.parcelDescr = builder.parcelDescr;
         this.parcelName = builder.parcelName;
     }
     public String getParcelRecordId(){
-        return parcelId;
+        return parcelPackId;
     }
     public String getParcelDate(){
         return parcelDate;
@@ -34,20 +42,20 @@ public class ParcelPack {
     @Override
     public String toString() {
         return "ParcelPack" + " \n"+
-                "parcelId:" + " "+ parcelId + "\n" +
+                "parcelId:" + " "+ parcelPackId + "\n" +
                 "ParcelDate:" + " "+ parcelDate + "\n" +
                 "ParcelDescr:" + " "+ parcelDescr + "\n" +
                 "ParcelName:" + " "+ parcelName + "\n";
     }
 
     public static class Builder {
-        private String parcelId;
+        private String parcelPackId;
         private String parcelDate;
         private String parcelDescr;
         private String parcelName;
 
-        public Builder setParcelId(String parcelId){
-            this.parcelId = parcelId;
+        public Builder setParcelPackId(String parcelPackId){
+            this.parcelPackId = parcelPackId;
             return this;
         }
         public Builder setParcelDate(String parcelDate){
@@ -65,7 +73,7 @@ public class ParcelPack {
 
         }
         public Builder copy(ParcelPack parcelPack){
-            this.parcelId = parcelPack.parcelId;
+            this.parcelPackId = parcelPack.parcelPackId;
             this.parcelDate = parcelPack.parcelDate;
             this.parcelDescr = parcelPack.parcelDescr;
             this.parcelName = parcelPack.parcelName;
@@ -79,11 +87,11 @@ public class ParcelPack {
             if (this == o) return true;
             if (o == null || getClass() != o.getClass()) return false;
             ParcelPack parcelPack = (ParcelPack) o;
-            return parcelId.equals(parcelPack.parcelId);
+            return parcelPackId.equals(parcelPack.parcelPackId);
         }
         @Override
         public int hashCode() {
-            return Objects.hash(parcelId);
+            return Objects.hash(parcelPackId);
         }
 
     }
