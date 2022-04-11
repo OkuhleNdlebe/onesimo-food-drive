@@ -1,5 +1,5 @@
 package za.ac.cput.group6.Entity;
-/**Student.java
+/**StudentRepository.java
  * Entity for Gender
  * Author: Nkuna Justin(219319820)
  * Date: 10 April 2022
@@ -22,6 +22,15 @@ public class Gender {
                 ", genderName='" + genderName + '\'' +
                 '}';
     }
+
+    public String getGenderId() {
+        return genderId;
+    }
+
+    public String getGenderName() {
+        return genderName;
+    }
+
     public static class Builder{
 
         private String genderId,genderName;
