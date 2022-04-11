@@ -1,7 +1,7 @@
 package za.ac.cput.group6.Entity;
 
-/**Student.java
- * Entity for Student
+/**StudentRepository.java
+ * Entity for StudentRepository
  * Author: Nkuna Justin(219319820)
  * Date: 10 April 2022
  */
@@ -28,9 +28,29 @@ public class Student {
         this.cellphoneNo=builder.cellphoneNo;
     }
 
+    public String getStudentId() {
+        return studentId;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getCellphoneNo() {
+        return cellphoneNo;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
     @Override
     public String toString() {
-        return "Student{" +
+        return "StudentRepository{" +
                 "studentId='" + studentId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
