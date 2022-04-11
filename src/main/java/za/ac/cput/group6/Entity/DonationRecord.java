@@ -1,5 +1,12 @@
 package za.ac.cput.group6.Entity;
 
+/*
+Author: Xola Mngeni
+Student number: 218268017
+Date: 10 April 2022
+ADP assignment 1
+ */
+
 public class DonationRecord {
     private String donationId;
     private String donationRecordId;
