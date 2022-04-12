@@ -1,4 +1,4 @@
-package za.ac.cput.group6.Repository;
+package za.ac.cput.group6.Repository.Distribution.impl;
 
 import org.junit.jupiter.api.*;
 import za.ac.cput.group6.Entity.Distribution;
